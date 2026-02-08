@@ -5836,15 +5836,15 @@ local GF = {"1ove0_9"}
 local Owner = {"sos107ppq"}
 
 local Overseer = {"unknown_cmci0"}
-local CoOwner = {"Robloxian519926689"}
+local CoOwner = {"Robloxian519926689","plantis1001"}
 
-local HeadAdmin = {"plantis1001"}
+local HeadAdmin = {""}
 ]]--
 
 local Owner = {"sos107ppq"}
 local Overseer = {"unknown_cmci0"}
-local CoOwner = {"Robloxian519926689"}
-local HeadAdmin = {"plantis1001"}
+local CoOwner = {"Robloxian519926689","plantis1001"}
+local HeadAdmin = {""}
 local Admin = {""}
 local Mod = {""}
 
@@ -8481,6 +8481,7 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 
 Logger()
+
 
 
 
