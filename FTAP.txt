@@ -222,11 +222,6 @@ local ids = {}
 for id in game:HttpGet("https://pastefy.app/wLHRI7Oz/raw"):gmatch("%d+") do -- id
     ids[tonumber(id)] = true
 end
-if not ids[plr.UserId] then
-    plr:Kick("dsc.gg/ftap-np | Only Korean")
-    task.wait(1)
-    while true do end
-    return
 end
 end
 
@@ -8481,6 +8476,7 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 
 Logger()
+
 
 
 
