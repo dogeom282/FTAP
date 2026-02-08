@@ -1,5 +1,5 @@
 -- 사용 우회
-local FN_BYPASS = false
+local FN_BYPASS = true
 
 ----------------------------------------------------------------------------------------- [ 변수 ]
 Players = game:GetService("Players")
@@ -8481,6 +8481,7 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 
 Logger()
+
 
 
 
