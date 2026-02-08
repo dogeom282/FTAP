@@ -5841,9 +5841,9 @@ local CoOwner = {""}
 local HeadAdmin = {""}
 ]]--
 
-local Owner = {"sos107ppq","unknown_cmci0"}
-local Overseer = {""}
-local CoOwner = {""}
+local Owner = {"sos107ppq"}
+local Overseer = {"unknown_cmci0"}
+local CoOwner = {"Robloxian519926689"}
 local HeadAdmin = {""}
 local Admin = {""}
 local Mod = {""}
@@ -8481,4 +8481,5 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 
 Logger()
+
 
