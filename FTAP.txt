@@ -1,5 +1,3 @@
-local key = tostring(_G.KEY or "")
-if key ~= "dogeom" then return end
 -- 사용 우회
 local FN_BYPASS = false
 
@@ -8483,6 +8481,7 @@ game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, true)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
 
 Logger()
+
 
 
 
